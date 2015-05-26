@@ -15,15 +15,13 @@ select:not([multiple='multiple']) {
   -webkit-user-select: none;
 
   background-color: #fff;
-
   border-radius: 3px;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 0 13px 0 3px;
-
   font: inherit;
+  height: 34px;
 }
 
 @-moz-document url-prefix() {
